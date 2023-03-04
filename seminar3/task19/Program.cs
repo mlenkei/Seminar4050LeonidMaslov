@@ -5,11 +5,11 @@
 // 12821 -> да
 // 23432 -> да
 
-Console.WriteLine("Введите число: ");
+Console.WriteLine("Введите пятизначное число: ");
 string number = Console.ReadLine();
-int len = number.Length;
+int leng = number.Length;
 
-if (len == 5)
+if (leng == 5)
 {
     if (number[0] == number[4] && number[1] == number[3])
     {
